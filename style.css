@@ -1,0 +1,95 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* navigation */
+nav {
+  background-color: #f0fff0;
+}
+.navbar-brand img {
+  width: 170px;
+  height: auto;
+}
+.nav-item {
+  padding: 0 15px;
+}
+.nav_button {
+  width: 106px;
+  background-color: #21b573;
+  border-radius: 50px;
+  margin: 0 auto;
+}
+/* banner */
+.banner {
+  background-color: #f0fff0;
+}
+.banner_text span {
+  color: #21b573;
+}
+.banner_text h1 {
+  font-size: 3rem;
+}
+
+/* data */
+.data_card {
+  padding: 35px;
+  border: none;
+}
+.data_img {
+  width: 26%;
+}
+.data_card_cmn {
+  background: #f1fff7;
+}
+.data_card_uncmn {
+  box-shadow: 0px 25px 45px 0px #0000001a;
+}
+/* course */
+.course_card {
+  border-radius: 15px;
+  box-shadow: 0px 15px 45px 0px #0000001a;
+}
+
+/* other */
+.button_custom {
+  background-color: #21b573;
+  border-radius: 50px;
+  padding: 0.45rem 1.25rem;
+}
+/* testimonial */
+.testimonial_img img {
+  width: 30% !important;
+}
+/* footet */
+footer {
+  background-color: #282531;
+}
+ul {
+  list-style-type: none;
+}
+/* responsive */
+@media screen and (max-width: 992px) {
+  /* data */
+  .data_card_uncmn {
+    padding-top: 72px;
+  }
+  /* testimonial */
+  .testimonial_img {
+    display: flex;
+    justify-content: center !important;
+  }
+  .testimonial_text {
+    width: 95% !important;
+    margin-top: 20px;
+  }
+  /* footer */
+  .footer_left_text {
+    text-align: center;
+  }
+}
+/*  */
+@media screen and (max-width: 767px) {
+  ul {
+    text-align: center;
+  }
+}
+/* responsive */
