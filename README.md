@@ -1,1 +1,1 @@
-# Simple Online School Website
+School Website
